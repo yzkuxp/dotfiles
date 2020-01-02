@@ -1,5 +1,5 @@
 #! /bin/sh
-# Start on startup
+# Start on boot
 sxhkd &
 compton &
 
@@ -24,6 +24,6 @@ bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 bspc rule -a terminator floating=on
 
-# More start on startup
+# More start on boot
 feh --bg-fill ~/Pictures/minimal-sunset-landscape-4k-w5-3840x2160.jpg
 polybar example
