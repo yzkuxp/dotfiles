@@ -2,6 +2,7 @@
   bspwm\
   sxhkd\
   polybar\
+  rofi\
   rofi-menus-git\
   feh
   
