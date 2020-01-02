@@ -3,7 +3,7 @@
   sxhkd\
   polybar\
   rofi-menus-git\
-  feh\
+  feh
   
 # Optional
   pywal (for color scheme)
