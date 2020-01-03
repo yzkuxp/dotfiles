@@ -4,6 +4,7 @@
   polybar\
   rofi\
   rofi-menus-git\
+  rofi-menus\
   feh
   
 # Optional
