@@ -4,7 +4,7 @@
 
 # terminal emulator
 super + Return
-	terminator
+	termite
 
 # program launcher
 super + d
@@ -16,7 +16,11 @@ super + Escape
 
 # Web Browser
 super + w
-        firefox
+        firefox-developer-edition
+
+# ranger
+super + r
+        termite -e ranger
 
 #
 # bspwm hotkeys
@@ -27,7 +31,7 @@ super + alt + {q,r}
 	bspc {quit,wm -r}
 
 # close and kill
-super + {_,shift + }w
+super + {_,shift + }c
 	bspc node -{c,k}
 
 # alternate between the tiled and monocle layout
@@ -67,8 +71,8 @@ super + {p,b,comma,period}
 	bspc node -f @{parent,brother,first,second}
 
 # focus the next/previous node in the current desktop
-super + {_,shift + }c
-	bspc node -f {next,prev}.local
+#super + {_,shift + }c
+#	bspc node -f {next,prev}.local
 
 # focus the next/previous desktop in the current monitor
 super + bracket{left,right}
@@ -123,3 +127,17 @@ super + alt + shift + {h,j,k,l}
 # move a floating window
 super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
+
+# Power menu
+super + q
+        powermenu
+
+# Network menu
+super + n
+        rofi-network
+
+# Brightnes
+XF86MonBrightnessDown
+ xbacklight -dec 10 
+XF86MonBrightnessUp
+ xbacklight -inc 10 
