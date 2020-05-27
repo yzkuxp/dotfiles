@@ -1,12 +1,10 @@
-
 [colors]
 background = #333333
 primary-very-light = #ff77a9
 primary-light = #ec407a
 primary = #d81b60
 primary-dark = #ad1457
-primary-very-dark = #880e4f
-alert = #d32f2f
+primary-very-dark = #880e4falert = #d32f2f
 
 [bar/example]
 wm-restack = bspwm
@@ -61,7 +59,7 @@ font-3 = FuraCode Nerd Font:size=10
 ;   modules-right = ipc clock
 modules-left = bspwm 
 modules-center = date
-modules-right = memory pulseaudio backlight network battery
+modules-right = pulseaudio backlight network battery
 
 ; Position of the system tray window
 ; If empty or undefined, tray support will be disabled
