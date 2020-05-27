@@ -9,5 +9,5 @@
   feh\
   NotoSans font\
   Material icons\
-  Termsynu\
+  Termsyn\
   Fontawesome\
