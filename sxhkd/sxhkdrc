@@ -4,7 +4,11 @@
 
 # terminal emulator
 super + Return
-	termite
+	kitty
+
+# terminal emulator docker
+super + {_,shift + }Return
+        d-arch
 
 # program launcher
 super + d
@@ -20,7 +24,7 @@ super + w
 
 # ranger
 super + r
-        termite -e ranger
+        kitty -e ranger
 
 #
 # bspwm hotkeys
@@ -127,14 +131,6 @@ super + alt + shift + {h,j,k,l}
 # move a floating window
 super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
-
-# Power menu
-super + q
-        powermenu
-
-# Network menu
-super + n
-        rofi-network
 
 # Brightnes
 XF86MonBrightnessDown
