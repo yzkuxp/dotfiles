@@ -2,10 +2,12 @@
   bspwm\
   sxhkd\
   polybar\
+  picom\
+  kitty\
+  ranger\
   rofi\
-  rofi-menus-git\
-  rofi-menus\
-  feh
-  
-# Optional
-  pywal (for color scheme)
+  feh\
+  NotoSans font\
+  Material icons\
+  Termsynu\
+  Fontawesome\
