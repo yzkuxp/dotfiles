@@ -2,9 +2,7 @@
 # Start on startup
 sxhkd &
 
-
 # Monitor/Video configs
-xrandr --output eDP1 --mode 1366x768 --pos 597x1080 --rotate normal --output HDMI1 --primary --mode 2560x1080 --pos 0x0 --rotate normal --output VIRTUAL1 --off
 bspc monitor HDMI1 -d 1 2 3 4 5
 bspc monitor eDP1 -d 6 7 8 9 10
 xset -dpms
@@ -30,7 +28,7 @@ bspc rule -a Screenkey manage=off
 # More start on startup
 xsetroot -cursor_name left_ptr &
 numlockx toggle &
-feh --bg-fill Pictures/nightcore-anime-girl-do-2560x1080.jpg
+feh --bg-fill /home/$USER/dotfiles/wallpapers/dxkzdqmytov01.png
 setxkbmap br
 polybar example &
 picom
