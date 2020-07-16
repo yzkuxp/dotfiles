@@ -1,7 +1,6 @@
 #!/bin/bash
 main()
-{
-  
+{ 
   if (("$UID" != "0"));then
     echo "You must be root to run this program.";
   else
