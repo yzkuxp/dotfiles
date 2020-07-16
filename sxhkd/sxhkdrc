@@ -4,11 +4,11 @@
 
 # terminal emulator
 super + Return
-	kitty
+	lxterminal
 
-# terminal emulator docker
+# empty
 super + {_,shift + }Return
-        d-arch
+        # put something here
 
 # program launcher
 super + d
@@ -24,7 +24,7 @@ super + w
 
 # ranger
 super + r
-        kitty -e ranger
+        lxterminal -e ranger
 
 #
 # bspwm hotkeys
