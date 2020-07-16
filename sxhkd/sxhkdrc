@@ -20,7 +20,7 @@ super + Escape
 
 # Web Browser
 super + w
-        firefox-developer-edition
+        firefox
 
 # ranger
 super + r
